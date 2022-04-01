@@ -1,0 +1,117 @@
+<html>
+
+<head>
+	
+</head>
+
+<title>Cool Beans Order Form</title>
+
+<link rel="stylesheet" href="mario_pest_control.css">
+
+<body>
+
+    <div> 
+        <h1>Cool Beans</h1>
+
+        <h2>Price list</h2> 
+
+        <table width="40%" id="alignment" > 
+            <tr>  
+            <th>Food Item</th> 
+            <th></th>
+            <th></th>
+            <th>Price</th>
+            </tr> 
+            <tr>
+            <td><img src="bagel.jpg"></td> 
+            <td>Bagel</td>
+            <td> - </td>
+            <td>3.00</td> 
+            </tr> 
+            <tr>
+            <td><img src="tea.jpeg"></td>
+            <td>Tea</td>
+            <td> - </td> 
+            <td>7.00</td> 
+            </tr>
+            <tr> 
+            <td><img src="coffee.webp"></td>
+            <td>Coffee</td>
+            <td> - </td>  
+            <td>11.00</td>
+            </tr> 
+            </table>
+
+            <h3>Order Form</h3>
+
+                <form name="tblform" >
+                    <table width="80%"  id="alignment" >
+                    <tr>
+                    <th>Food Item</th>
+                    <th> </th>
+                    <th>Quantity</th>
+                    <th>Price</th> 
+                    </tr>
+                    <tr> 
+                    <td>Item 1:</td> 
+                    <td>
+                    <select id="item1">
+                    <option value="1">--Select Item--</option> 
+                    <option value="Bagel">Bagel</option> 
+                    <option value="Tea">Tea</option> 
+                    <option value="Coffee">Coffee</option> 
+                    </select>
+                    </td> 
+                    <td><input type="number" value="0" id="q1"></td>
+                    <td><input type="text" id="p1"></td>
+                    </tr>   
+
+                    <tr>
+                    <td>Item 2:</td>
+                    <td>
+                    <select id="item2"> 
+                    <option value="1">--Select Item--</option> 
+                    <option value="Bagel">Bagel</option> 
+                    <option value="Tea">Tea</option> 
+                    <option value="Coffee">Coffee</option> 
+                    </select>
+                    </td>
+                    <td><input  type="number" value="0" id="q2"></td>  
+                    <td><input type="text"  id="p2"></td>  
+                    </tr> 
+
+                    <tr>
+                    <td>Item 3:</td>
+                    <td><select id="item3">  
+                    <option value="1">--Select Item--</option> 
+                    <option value="Bagel">Bagel</option> 
+                    <option value="Tea">Tea</option> 
+                    <option value="Coffee">Coffee</option> 
+                    </select>
+                    </td>
+                    <td><input type="number" value="0" id="q3"></td>
+                    <td><input type="text"  id="p3"></td> 
+                    </tr> 
+
+                    <tr>
+                    <td></td> 
+                    <td></td> 
+                    <td><input type="submit" class="button" value="Create Bill" onclick=createBill()></td>
+                    <td><input type="reset" class="button" value="Clear"></td>
+                    </tr>
+                    </table>
+                    </form>        
+
+                    </div>
+    
+ <script src="mario_pest_control.js"></script>
+	
+</body>
+
+<footer>
+    <p>coolbeans@hotmail.com</p>
+    <p>www.coolbeans.org</p>
+    <p>123 Coffee Lane, CC, Tx, 78416</p>
+  </footer>
+
+</html>
